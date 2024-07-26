@@ -1,0 +1,36 @@
+div  a {
+    color: red;
+}
+nav > h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(99, 182, 174) ;
+}
+ div + p {
+    color: red;
+}
+/* Attribute selectors */
+a[href]{
+    color: red;
+    text-decoration:none;
+}
+a[class="active"] {
+    color: green;
+    text-decoration: underline;
+
+}
+ a[target="_self"] {
+    background-color:rgb(22, 191, 229) ;
+
+ }
+ p:last-child::after{
+   content: "...";
+   
+ }
+ li::marker {
+    color: rgb(18, 6, 249);
+ }
+ p:nth-child(4):first-letter{
+    color: red;
+    font-size: 30px;
+
+ }

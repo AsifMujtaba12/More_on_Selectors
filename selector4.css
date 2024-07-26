@@ -1,0 +1,28 @@
+div {
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pw_button {
+    outline: none;
+    border: none;
+  }
+  
+  .pw_button:hover::before {
+    background-color: rgb(150, 150, 233);
+    box-shadow: 18px 9px rgba(148, 146, 146, 0.2);
+  }
+  
+  .pw_button::before {
+    padding:20px 32px;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    content: "PW Skills";
+  }

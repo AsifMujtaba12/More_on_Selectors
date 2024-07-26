@@ -1,0 +1,6 @@
+h1::after {
+    content: "adding text after" ;
+}
+h1::before {
+    content: "adding text bofore";
+}
